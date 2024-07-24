@@ -1,7 +1,4 @@
-{
-    "status": "success",
-    "message": "Online users list retrieved",
-    "data": [
+[
       {
         "login": "proiz2",
         "session_id": 13932,
@@ -9256,4 +9253,3 @@
         "station_distance": 17063.7756208146
       }
     ]
-  }

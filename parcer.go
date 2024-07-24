@@ -7,7 +7,7 @@ import (
 )
 
 func readFileData() {
-	dat, err := os.ReadFile("./Svtp.json")
+	dat, err := os.ReadFile("./SvtpPrin.json")
 	if err != nil {
 		log.Fatal(err.Error())
 	}
