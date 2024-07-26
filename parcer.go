@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func readFileData() {
+func readFileData() []GeoData {
 	dat, err := os.ReadFile("./SvtpPrin.json")
 	if err != nil {
 		log.Fatal(err.Error())
@@ -18,4 +18,5 @@ func readFileData() {
 	if err != nil {
 		log.Fatal(err.Error())
 	}
+	return geodat
 }
