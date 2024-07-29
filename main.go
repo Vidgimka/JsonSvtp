@@ -11,5 +11,5 @@ func main() {
 	allRS = uniqRSLists()
 	fmt.Println(len(geodatList))
 	fmt.Println(len(allRS))
-	fmt.Println(allRS[0]) // проверка все работает
+
 }
