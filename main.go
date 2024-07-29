@@ -2,9 +2,14 @@ package main
 
 import "fmt"
 
+var geodatList []GeoData
+var allRS []string
+
 func main() {
 	fmt.Println("Парсинг json")
-	fmt.Println(readFileData())
-	readFileData()
-
+	geodatList = readFileData()
+	allRS = uniqRSLists()
+	fmt.Println(len(geodatList))
+	fmt.Println(len(allRS))
+	fmt.Println(allRS[0]) // проверка все работает
 }
