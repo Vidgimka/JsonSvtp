@@ -13,5 +13,5 @@ func main() {
 	loginConnect = createDB()
 	fmt.Println(len(geodatList))
 	fmt.Println(len(allRS))
-	fmt.Println(loginConnect[1])
+	fmt.Println(loginConnect)
 }
