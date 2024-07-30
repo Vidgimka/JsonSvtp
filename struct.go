@@ -19,3 +19,10 @@ type GeoData struct {
 	Height           int     `json:"height"`
 	Station_distance float64 `json:"station_distance"`
 }
+
+type LoginStat struct {
+	Login         string
+	SumConnecTime int
+	MinConnecTime int
+	MaxConnecTime int
+}
