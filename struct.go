@@ -24,3 +24,10 @@ type LoginStat struct {
 	Login        string
 	TotalConnect int
 }
+
+type CalcRSstat struct {
+	Login         string
+	SumConnecTime int
+	MinConnecTime int
+	MaxConnecTime int
+}
