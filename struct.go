@@ -26,7 +26,7 @@ type LoginStat struct {
 }
 
 type CalcRSstat struct {
-	Login         string
+	Station       string
 	SumConnecTime int
 	MinConnecTime int
 	MaxConnecTime int

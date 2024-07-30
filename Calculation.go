@@ -29,16 +29,16 @@ func createDB() []LoginStat {
 }
 
 // наполнение данных о коннекте станции
-func RSStatFill(login string) CalcRSstat {
+func RSStatFill(stantion string) CalcRSstat {
 	var t = CalcRSstat{
-		Login:         login,
+		Station:       stantion,
 		SumConnecTime: 0,
 		MinConnecTime: 0,
 		MaxConnecTime: 0,
 	}
 	// считаем суммарно время коннекта
 	for _, v := range geodatList {
-		if login == v.Login {
+		if stantion == v.Station {
 			t.SumConnecTime = t.SumConnecTime + v.Connect_time // сумируем время подключения
 		}
 
@@ -49,7 +49,7 @@ func createDBRS() []CalcRSstat {
 	var dbrs []CalcRSstat
 	for _, v := range geodatList {
 		//dbrs = append(dbrs, RSStatFill(v))
-		dbrs = append(dbrs, RSStatFill(v.Login))
+		dbrs = append(dbrs, RSStatFill(v.Station))
 	}
 	fmt.Println("Время коннекта по станциям посчитанно")
 	return dbrs
