@@ -21,8 +21,6 @@ type GeoData struct {
 }
 
 type LoginStat struct {
-	Login         string
-	TotalConnect  int
-	MinConnecTime int
-	MaxConnecTime int
+	Login        string
+	TotalConnect int
 }

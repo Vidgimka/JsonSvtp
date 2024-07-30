@@ -19,6 +19,25 @@
         "station_distance": 11226.0332832108
       },
       {
+        "login": "proiz2",
+        "session_id": 13932,
+        "subnet": "66_Sverdlovskaya_obl",
+        "mountpoint": "EKB2",
+        "station": "EKB2",
+        "ntrip_agent": "NTRIP CHC LandStar/8.1.0.20240430",
+        "connect_time": 1721800730262,
+        "time_span": 8202,
+        "recieved_data": 712.7783203125,
+        "sent_data": 6622.5673828125,
+        "status_code": 5,
+        "latency": 2000,
+        "sv_num": 23,
+        "lat": 56.8632604868333,
+        "lon": 60.6559781653333,
+        "height": 0,
+        "station_distance": 11226.0332832108
+      },
+      {
         "login": "mansurov2",
         "session_id": 7788,
         "subnet": "66_Sverdlovskaya_obl",
