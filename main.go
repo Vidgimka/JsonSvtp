@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"JSONSVTP/database"
+	"fmt"
+)
 
 var geodatList []GeoData
 var allRS []string
@@ -16,4 +19,6 @@ func main() {
 	fmt.Println(len(geodatList))
 	fmt.Println(len(allRS))
 	fmt.Println(StationConnect[0])
+	// юзаем горм для создания и записи БД
+	database.Init()
 }
